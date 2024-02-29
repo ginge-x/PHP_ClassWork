@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* Final CSS V1.0 */
+
+    body{
+        font-size: 14px;
+        font-family: Arial,sans-serif;
+    }
+    ul {
+        padding: 0;
+        list-style: none;
+        background: #f2f2f2;
+        border-top: 1px solid #39322D;
+    }
+#practical {
+    list-style: none;
+    margin: 0;
+}
+#practical li {
+    padding: 0px 0px 10px 10px;
+    margin: 0;
+}
+#practical li a {
+    display: block;
+    padding: 10px 25px;
+    color: #333;
+    text-decoration: none;
+    border:0;
+    padding-right: -2px;
+    margin-bottom:-7px;
+	margin-right: 5px;
+	background-image: url('../images/bmw-icon.png');
+    background-size: 0.75em;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#practical li a:hover {
+    background-color: #39322D;
+    color:#8884DB;
+}
