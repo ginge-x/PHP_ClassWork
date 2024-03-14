@@ -4,9 +4,9 @@ use InvalidArgumentException;
 
 class User
 {
-    private int $age;
-    private array $favorite_movies = [];
-    private string $name;
+    public int $age;
+    public array $favorite_movies = [];
+    public string $name;
 
     /**
      * @param int $age
@@ -43,7 +43,7 @@ class User
 
     public function tellAge(): string
     {
-        if ($this->age = 100)
+        if ($this->age == 100)
             return "I am a Centurian!";
         else
             return "I am " . $this->age . " years old.";

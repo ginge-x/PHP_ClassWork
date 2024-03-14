@@ -4,10 +4,10 @@ User Tests
  [x] Tell name
  [x] Check output matches john
  [x] Age is 18
- [ ] Tell age
+ [x] Tell age
  [x] Add favorite movie
  [x] Favorite movie is maverick
  [x] Favorite movies
  [x] Remove favorite movie
- [x] Ensure age is at least one year old for a person
+ [x] Ensure age is atleast one year
 
